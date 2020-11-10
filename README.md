@@ -8,7 +8,7 @@
 
 **role.sql** gère la gestion des roles staff et viewer ainsi que la gestion de leurs droits.
 
-Le dossier **Dump20201110** contient l'ensemble des données de ce nouveau projet.
+Le dossier **Dump20201110** contient l'ensemble des données de ce nouveau projet issu de **Serveur > Data Export**
 
 **Enoncé du brief:**
 
