@@ -15,12 +15,14 @@ GRANT SELECT
 ON breizhvideo.* 
 TO breizhvideo_viewer;
 
-GRANT INSERT, UPDATE, SELECT
-ON breizhvideo.preference 
-TO breizhvideo_viewer;
-
 GRANT breizhvideo_staff
 TO staff1;
 
 GRANT breizhvideo_viewer
 TO viewer1;
+
+GRANT INSERT, UPDATE, SELECT
+ON breizhvideo.preference 
+TO viewer1;
+
+SHOW GRANTS FOR viewer1;
